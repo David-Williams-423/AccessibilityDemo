@@ -16,6 +16,8 @@ struct ContentView: View {
             Spacer()
 
             CellView(fontSize: $fontSize)
+            CellView(fontSize: $fontSize)
+            CellView(fontSize: $fontSize)
             
             Spacer()
 
