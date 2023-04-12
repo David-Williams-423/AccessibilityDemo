@@ -22,10 +22,13 @@ struct CellView: View {
                 Text("World!")
             }
             .font(.system(size: fontSize))
+            .accessibilityElement(children: .contain)
+            .accessibilityLabel("Hello world")
         }
         .padding()
         .background(.regularMaterial)
         .cornerRadius(20)
+        .accessibilityElement(children: .combine)
         
         
     }
