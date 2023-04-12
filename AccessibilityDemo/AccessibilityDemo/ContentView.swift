@@ -16,7 +16,8 @@ struct ContentView: View {
             Spacer()
 
             CellView(fontSize: $fontSize)
-            CellView(fontSize: $fontSize)
+            
+            Spacer()
 
             VStack(alignment: .leading) {
                 Text("Font Size")
