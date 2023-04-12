@@ -23,7 +23,7 @@ struct ContentView: View {
             }
             .padding()
             .background(.regularMaterial)
-
+            .cornerRadius(20)
         }
         .padding()
     }
