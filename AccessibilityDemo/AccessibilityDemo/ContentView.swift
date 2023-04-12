@@ -21,9 +21,7 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 Text("Font Size")
                     .bold()
-                Slider(value: $fontSize, in: 20 ... 40) {
-                    Text("Font Size")
-                }
+                Slider(value: $fontSize, in: 20 ... 40)
             }
             .padding()
             .background(.regularMaterial)
