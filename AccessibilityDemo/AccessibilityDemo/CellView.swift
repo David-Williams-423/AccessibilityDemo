@@ -30,7 +30,6 @@ struct CellView: View {
         .cornerRadius(20)
         .accessibilityElement(children: .combine)
         
-        
     }
 }
 

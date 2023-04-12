@@ -42,6 +42,7 @@ struct ContentView: View {
                         Text(sizeDescription)
                     }
                 }
+                .accessibilityHidden(true)
                 
                 Slider(value: $fontSize, in: 20 ... 40)
                     .accessibilityValue("Font Size: \(Int(fontSize)),  \(sizeDescription)")
