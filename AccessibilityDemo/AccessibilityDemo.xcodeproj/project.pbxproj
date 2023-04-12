@@ -14,6 +14,7 @@
 		385C535829E7448D00A5F5D3 /* AccessibilityDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C535729E7448D00A5F5D3 /* AccessibilityDemoTests.swift */; };
 		385C536229E7448D00A5F5D3 /* AccessibilityDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C536129E7448D00A5F5D3 /* AccessibilityDemoUITests.swift */; };
 		385C536429E7448D00A5F5D3 /* AccessibilityDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C536329E7448D00A5F5D3 /* AccessibilityDemoUITestsLaunchTests.swift */; };
+		385C537129E7459D00A5F5D3 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C537029E7459D00A5F5D3 /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		385C535D29E7448D00A5F5D3 /* AccessibilityDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessibilityDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		385C536129E7448D00A5F5D3 /* AccessibilityDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityDemoUITests.swift; sourceTree = "<group>"; };
 		385C536329E7448D00A5F5D3 /* AccessibilityDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		385C537029E7459D00A5F5D3 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				385C534629E7448C00A5F5D3 /* AccessibilityDemoApp.swift */,
 				385C534829E7448C00A5F5D3 /* ContentView.swift */,
+				385C537029E7459D00A5F5D3 /* CellView.swift */,
 				385C534A29E7448D00A5F5D3 /* Assets.xcassets */,
 				385C534C29E7448D00A5F5D3 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				385C534929E7448C00A5F5D3 /* ContentView.swift in Sources */,
 				385C534729E7448C00A5F5D3 /* AccessibilityDemoApp.swift in Sources */,
+				385C537129E7459D00A5F5D3 /* CellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

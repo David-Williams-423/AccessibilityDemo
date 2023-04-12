@@ -8,12 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var fontSize = 30.0
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            CellView(fontSize: $fontSize)
+            CellView(fontSize: $fontSize)
+            VStack(alignment: .leading) {
+                Text("Font Size")
+                    .bold()
+                Slider(value: $fontSize, in: 20...40) {
+                    Text("Font Size")
+                }
+            }
+            .padding()
+            .background(.regularMaterial)
+
         }
         .padding()
     }
